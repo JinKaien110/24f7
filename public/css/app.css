@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+nav {
+    background-color:#3c88f8;
+    height:115px;
+}
+
+@layer components {
+    /**Navbar Style (ang lopit)**/
+    .logo{
+        @apply size-28 ml-16 xl:mx-0
+    }
+    .branding{
+        @apply text-white pt-4
+    }
+    .selector{
+        @apply pl-5 text-lg hidden xl:flex gap-8 items-center text-white w-[650px]
+    }
+     /**footer Style (ang lopit)**/
+     .content{
+        @apply text-white hover:underline text-base
+     }
+}
+
+@layer utilities {
+    .text-outline-black {
+      -webkit-text-stroke: 0.5px black;
+    }
+    .text-outline-none {
+        -webkit-text-stroke: 0;
+    }
+  }

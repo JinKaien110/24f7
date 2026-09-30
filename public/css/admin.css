@@ -1,0 +1,63 @@
+/* Sidebar Styling */
+.sidebar {
+    background-color: #003366; /* Dark Blue */
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #FF6600; /* Orange Hover */
+}
+
+/* Admin Panel Header */
+.navbar {
+    background-color: #F5F5F5; /* Light Gray */
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Content Box Styling */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.card {
+    border-radius: 10px; /* Smooth edges */
+}
+
+.nav-link:hover {
+    background-color: #FF6600 !important; /* Orange hover effect */
+    color: white !important;
+}
+
+
+/* Fix Company Logo */
+.logo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 20px auto;
+    border-radius: 12px;
+}
+
+
+.table-responsive {
+    overflow: visible !important;
+    position: relative;
+    z-index: auto;
+}
+
+.table td,
+.table th {
+    overflow: visible !important;
+    position: relative;
+}

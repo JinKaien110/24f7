@@ -1,0 +1,1 @@
+"C:\xampp\mysql\bin\mysql.exe" -u root -p 24f7 < 24f7.sql
